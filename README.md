@@ -3,6 +3,10 @@
 Sneakers shop project with demo using a [Skip](https://skip.tools) dual-platform app project.
 It builds a native app for both iOS and Android.
 
+<p align="left">
+  <img src="demo/demo.png" alt="" width="600">
+  </p>
+  
 ## Building
 
 This project is both a stand-alone Swift Package Manager module,
