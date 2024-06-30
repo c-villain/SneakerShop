@@ -1,0 +1,2 @@
+-keep class skip.** { *; }
+-keep class sneaker.shop.demo.** { *; }
