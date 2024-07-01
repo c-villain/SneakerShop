@@ -6,6 +6,10 @@
 Sneakers shop project with demo using a [Skip](https://skip.tools) dual-platform app project.
 It builds a native app for both iOS and Android.
 
+👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
+
+If you like this repository, please do :star: to make this useful for others.
+
 <p align="left">
   <img src="demo/demo.png" alt="" width="600">
   </p>
