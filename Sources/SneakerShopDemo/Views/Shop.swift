@@ -103,8 +103,14 @@ public struct Shop: View {
                         }
                     }
                     .frame(height: 300.0)
+                    #if !SKIP
+                    .scrollIndicators(.hidden)
+                    #endif
                 }
             }
+            #if !SKIP
+            .scrollIndicators(.hidden)
+            #endif
             .padding(.horizontal, 12)
         }
         .onTapGesture {

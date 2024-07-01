@@ -52,13 +52,16 @@ public struct Sneaker: View {
                             }
                         }
                     }
+                    #if !SKIP
+                    .scrollIndicators(.hidden)
+                    #endif
                 }
                 
                 HStack {
                     Text("COLOR:")
                         .fontWeight(.medium)
                     
-                    ScrollView(Axis.Set.horizontal) {
+                    ScrollView(.horizontal) {
                         HStack {
                             ForEach(colors, id: \.self) { color in
                                 Circle()
@@ -68,6 +71,9 @@ public struct Sneaker: View {
                         }
                         .padding(.horizontal, 8.0)
                     }
+                    #if !SKIP
+                    .scrollIndicators(.hidden)
+                    #endif
                 }
                 .frame(height: 20.0)
                 
